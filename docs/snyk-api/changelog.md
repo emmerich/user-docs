@@ -1,3 +1,74 @@
+## 2025-09-28 - Updated 2025-11-14
+
+### GET - `/orgs/{org_id}/issues` - Updated
+- added the optional property `data/items/attributes/coordinates/items/created_at` to the response with the `200` status
+
+- added the optional property `data/items/attributes/coordinates/items/last_introduced_at` to the response with the `200` status
+
+- added the optional property `data/items/attributes/coordinates/items/last_resolved_at` to the response with the `200` status
+
+- added the optional property `data/items/attributes/coordinates/items/last_resolved_details` to the response with the `200` status
+
+- added the optional property `data/items/attributes/coordinates/items/state` to the response with the `200` status
+
+- added the optional property `data/items/attributes/coordinates/items/updated_at` to the response with the `200` status
+
+
+
+### GET - `/orgs/{org_id}/issues/{issue_id}` - Updated
+- added the optional property `data/attributes/coordinates/items/created_at` to the response with the `200` status
+
+- added the optional property `data/attributes/coordinates/items/last_introduced_at` to the response with the `200` status
+
+- added the optional property `data/attributes/coordinates/items/last_resolved_at` to the response with the `200` status
+
+- added the optional property `data/attributes/coordinates/items/last_resolved_details` to the response with the `200` status
+
+- added the optional property `data/attributes/coordinates/items/state` to the response with the `200` status
+
+- added the optional property `data/attributes/coordinates/items/updated_at` to the response with the `200` status
+
+
+
+### POST - `/orgs/{org_id}/export` - Updated
+- added the new optional request property `data/attributes/filters/empty_project_tags`
+
+
+
+### GET - `/groups/{group_id}/issues` - Updated
+- added the optional property `data/items/attributes/coordinates/items/created_at` to the response with the `200` status
+
+- added the optional property `data/items/attributes/coordinates/items/last_introduced_at` to the response with the `200` status
+
+- added the optional property `data/items/attributes/coordinates/items/last_resolved_at` to the response with the `200` status
+
+- added the optional property `data/items/attributes/coordinates/items/last_resolved_details` to the response with the `200` status
+
+- added the optional property `data/items/attributes/coordinates/items/state` to the response with the `200` status
+
+- added the optional property `data/items/attributes/coordinates/items/updated_at` to the response with the `200` status
+
+
+
+### GET - `/groups/{group_id}/issues/{issue_id}` - Updated
+- added the optional property `data/attributes/coordinates/items/created_at` to the response with the `200` status
+
+- added the optional property `data/attributes/coordinates/items/last_introduced_at` to the response with the `200` status
+
+- added the optional property `data/attributes/coordinates/items/last_resolved_at` to the response with the `200` status
+
+- added the optional property `data/attributes/coordinates/items/last_resolved_details` to the response with the `200` status
+
+- added the optional property `data/attributes/coordinates/items/state` to the response with the `200` status
+
+- added the optional property `data/attributes/coordinates/items/updated_at` to the response with the `200` status
+
+
+
+### POST - `/groups/{group_id}/export` - Updated
+- added the new optional request property `data/attributes/filters/empty_project_tags`
+
+
 ## 2025-09-28 - Updated 2025-10-22
 
 ### POST - `/orgs/{org_id}/export` - Updated
