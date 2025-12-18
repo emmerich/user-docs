@@ -7,7 +7,7 @@ cover: .gitbook/assets/Header.png
 coverY: 0
 ---
 
-# Homepage
+# Homepage!
 
 Check out the latest [updates in the Snyk user documentation](discover-snyk/whats-new.md).
 
