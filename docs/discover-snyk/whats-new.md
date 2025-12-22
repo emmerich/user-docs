@@ -26,7 +26,7 @@ The most recent updates include significant changes to the user docs, such as fe
 
 ### **Snyk integrations**
 
-* The list of Snyk MCP quick guides now includes [Devin guide](../integrations/developer-guardrails-for-agentic-workflows/quickstart-guides-for-mcp/devin-guide.md), [Factory guide](../integrations/developer-guardrails-for-agentic-workflows/quickstart-guides-for-mcp/factory-guide.md), [Factory terminal guide](../integrations/snyk-studio-agentic-integrations/quickstart-guides-for-snyk-studio/factory-terminal-ide-guide.md).
+* The list of Snyk MCP quick guides now includes [Devin guide](../integrations/developer-guardrails-for-agentic-workflows/quickstart-guides-for-mcp/devin-guide.md), [Factory guide](../integrations/developer-guardrails-for-agentic-workflows/quickstart-guides-for-mcp/factory-guide.md), [Factory terminal guide](../integrations/developer-guardrails-for-agentic-workflows/quickstart-guides-for-mcp/factory-terminal-ide-guide.md).
 * The Snyk MCP Server has been rebranded as [Snyk Studio](../integrations/developer-guardrails-for-agentic-workflows/).
 * [SCM integration support for Python](../supported-languages/supported-languages-list/python/scm-integrations-and-python.md) has been updated with support for Python 3.14.
 
@@ -53,7 +53,7 @@ The most recent updates include significant changes to the user docs, such as fe
 
 ### **Other updates**
 
-* For Java and Kotlin, the list of [supported Gradle versions](../supported-languages-package-managers-and-frameworks/java-and-kotlin/#supported-package-managers-and-package-registries) now includes Gradle 9.
+* For Java and Kotlin, the list of [supported Gradle versions](../supported-languages/supported-languages-list/java-and-kotlin/#supported-package-managers-and-package-registries) now includes Gradle 9.
 * For [Ruby](../supported-languages/supported-languages-list/ruby.md), an end-of-support notice has been added to say that starting Oct 1, 2025, Fix PRs are no longer supported for Projects using Ruby versions 3.1.x and lower. The table of supported Ruby versions has also been updated.
 * For Javascript, [support for pnpm Projects](../supported-languages/supported-languages-list/javascript/best-practices-for-javascript-and-node.js.md#pnpm) has been added.
 * `Raise Support Community Cases` and `View Support Community Cases` Tenant level permissions have been added. To learn more about which Tenant roles these permissions apply to, visit Pre-defined roles, [Tenant-level permissions](../snyk-platform-administration/user-roles/pre-defined-roles.md#tenant-level-permissions).
@@ -139,8 +139,8 @@ The most recent updates include significant changes to the user docs, such as fe
 ### **Snyk Broker**
 
 * Updated the Snyk Broker documentation to include distinct steps for setting up the [Container Registry Agent with Docker](../implementation-and-setup/enterprise-setup/snyk-broker/snyk-broker-container-registry-agent/#configuring-and-running-the-container-registry-agent), whether using the Classic or Universal Broker.
-* Updated the [Using the API to set up Universal Broker](../enterprise-setup/snyk-broker/universal-broker/using-the-api-to-set-up-universal-broker/) documentation with a Prerequisites section and clarified that the Snyk Broker App ID differs for each [region](../snyk-data-and-governance/regional-hosting-and-data-residency.md#broker-client-urls).
-* Snyk Learn courses have been integrated into the [Universal Broker](../enterprise-setup/snyk-broker/universal-broker/) pages.
+* Updated the [Using the API to set up Universal Broker](../implementation-and-setup/enterprise-setup/snyk-broker/universal-broker/using-the-api-to-set-up-universal-broker/) documentation with a Prerequisites section and clarified that the Snyk Broker App ID differs for each [region](../snyk-data-and-governance/regional-hosting-and-data-residency.md#broker-client-urls).
+* Snyk Learn courses have been integrated into the [Universal Broker](../implementation-and-setup/enterprise-setup/snyk-broker/universal-broker/) pages.
 
 ### **Other updates**
 
@@ -219,7 +219,7 @@ Information has been added about Snyk support for the Model Context Protocol (MC
 ### **Snyk Integrations**
 
 * For the [Jira integration](../integrations/jira-and-slack-integrations/jira-integration.md#prerequisites-for-jira-integration-with-snyk), Snyk now supports Jira versions 5 to 10.
-* For [SCM integrations with Gradle](../supported-languages-package-managers-and-frameworks/java-and-kotlin/git-repositories-with-maven-and-gradle.md), Snyk now supports `allprojects` and `subprojects` blocks, as well as Spring Boot plugins BOMs.
+* For [SCM integrations with Gradle](../supported-languages/supported-languages-list/java-and-kotlin/git-repositories-with-maven-and-gradle.md), Snyk now supports `allprojects` and `subprojects` blocks, as well as Spring Boot plugins BOMs.
 
 ### **Other updates**
 
@@ -230,8 +230,8 @@ Information has been added about Snyk support for the Model Context Protocol (MC
 
 ### **Snyk Broker**
 
-* The Snyk Broker section has been divided into [Universal Broker](../enterprise-setup/snyk-broker/universal-broker/) and [Classic Broker](../implementation-and-setup/enterprise-setup/snyk-broker/classic-broker/) documentation and the [main page](../implementation-and-setup/enterprise-setup/snyk-broker/) has been updated.
-* The Classic Broker installation instructions now include the command to set the `BROKER_SERVER_URL` for [Docker](../enterprise-setup/snyk-broker/classic-broker/install-and-configure-snyk-broker/install-and-configure-broker-using-docker.md) and the `brokerServerUrl` for [Helm](../enterprise-setup/snyk-broker/classic-broker/install-and-configure-snyk-broker/install-and-configure-broker-using-helm.md).
+* The Snyk Broker section has been divided into [Universal Broker](../implementation-and-setup/enterprise-setup/snyk-broker/universal-broker/) and [Classic Broker](../implementation-and-setup/enterprise-setup/snyk-broker/classic-broker/) documentation and the [main page](../implementation-and-setup/enterprise-setup/snyk-broker/) has been updated.
+* The Classic Broker installation instructions now include the command to set the `BROKER_SERVER_URL` for [Docker](../implementation-and-setup/enterprise-setup/snyk-broker/classic-broker/install-and-configure-snyk-broker/install-and-configure-broker-using-docker.md) and the `brokerServerUrl` for [Helm](../implementation-and-setup/enterprise-setup/snyk-broker/classic-broker/install-and-configure-snyk-broker/install-and-configure-broker-using-helm.md).
 
 ### **Snyk API**
 
