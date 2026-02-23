@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Homepage!](README.md)
+* [Homepage](README.md)
 
 ## Discover Snyk
 
@@ -29,29 +29,6 @@
       * [Review scan coverage](discover-snyk/getting-started/pilot-guide/during-the-pilot/review-scan-coverage.md)
       * [Review reporting](discover-snyk/getting-started/pilot-guide/during-the-pilot/review-reporting.md)
       * [Assign a lesson in Snyk Learn](discover-snyk/getting-started/pilot-guide/during-the-pilot/assign-a-lesson-in-snyk-learn.md)
-* [Copy of Getting started](discover-snyk/getting-started-1/README.md)
-  * [😃 Snyk release process](discover-snyk/getting-started-1/snyk-release-process.md)
-  * [Glossary](discover-snyk/getting-started-1/glossary.md)
-  * [Pilot Guide](discover-snyk/getting-started-1/pilot-guide/README.md)
-    * [Access and deployment](discover-snyk/getting-started-1/pilot-guide/access-and-deployment/README.md)
-      * [Provision your account](discover-snyk/getting-started-1/pilot-guide/access-and-deployment/provision-your-account.md)
-      * [Configure self-hosted SCM](discover-snyk/getting-started-1/pilot-guide/access-and-deployment/configure-self-hosted-scm.md)
-      * [Configure cloud-based SCM](discover-snyk/getting-started-1/pilot-guide/access-and-deployment/configure-cloud-based-scm/README.md)
-        * [GitHub](discover-snyk/getting-started-1/pilot-guide/access-and-deployment/configure-cloud-based-scm/github.md)
-        * [GitLab](discover-snyk/getting-started-1/pilot-guide/access-and-deployment/configure-cloud-based-scm/gitlab.md)
-        * [Azure DevOps](discover-snyk/getting-started-1/pilot-guide/access-and-deployment/configure-cloud-based-scm/azure-devops.md)
-        * [BitBucket](discover-snyk/getting-started-1/pilot-guide/access-and-deployment/configure-cloud-based-scm/bitbucket.md)
-      * [Set up Snyk Essentials](discover-snyk/getting-started-1/pilot-guide/access-and-deployment/set-up-snyk-essentials.md)
-      * [Import repositories](discover-snyk/getting-started-1/pilot-guide/access-and-deployment/import-repositories.md)
-      * [Invite team members](discover-snyk/getting-started-1/pilot-guide/access-and-deployment/invite-team-members.md)
-      * [Configure Snyk region](discover-snyk/getting-started-1/pilot-guide/access-and-deployment/configure-snyk-region.md)
-    * [During the Pilot](discover-snyk/getting-started-1/pilot-guide/during-the-pilot/README.md)
-      * [Local scanning with the IDE](discover-snyk/getting-started-1/pilot-guide/during-the-pilot/local-scanning-with-the-ide.md)
-      * [Fix a vulnerability](discover-snyk/getting-started-1/pilot-guide/during-the-pilot/fix-a-vulnerability.md)
-      * [Test PR Checks](discover-snyk/getting-started-1/pilot-guide/during-the-pilot/test-pr-checks.md)
-      * [Review scan coverage](discover-snyk/getting-started-1/pilot-guide/during-the-pilot/review-scan-coverage.md)
-      * [Review reporting](discover-snyk/getting-started-1/pilot-guide/during-the-pilot/review-reporting.md)
-      * [Assign a lesson in Snyk Learn](discover-snyk/getting-started-1/pilot-guide/during-the-pilot/assign-a-lesson-in-snyk-learn.md)
 * [Developer security education and Snyk product training](discover-snyk/snyk-learn/README.md)
   * [Your learning](discover-snyk/snyk-learn/your-learning/README.md)
     * [Claiming CPE Credits with Snyk Learn](discover-snyk/snyk-learn/your-learning/claiming-cpe-credits-with-snyk-learn.md)

@@ -1,13 +1,13 @@
 ---
 description: >-
   Scan, prioritize, and fix vulnerabilities in your code, open-source
-  dependencies, container images, and cloud configurations<<
+  dependencies, container images, and cloud configurations!!!
 icon: house
 cover: .gitbook/assets/Header.png
 coverY: 0
 ---
 
-# Homepage!
+# Homepage
 
 Check out the latest [updates in the Snyk user documentation](discover-snyk/whats-new.md)!
 
