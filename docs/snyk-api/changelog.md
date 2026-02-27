@@ -1,3 +1,193 @@
+## 2025-11-05
+
+### POST - `/tenants/{tenant_id}/brokers/installs/{install_id}/deployments/{deployment_id}/contexts` - Added
+- Creates a new Broker Context
+
+#### Required permissions
+
+- `View Tenant Details (tenant.read)`
+
+- `Edit Tenant Details (tenant.edit)`
+
+
+### GET - `/tenants/{tenant_id}/brokers/installs/{install_id}/deployments/{deployment_id}/contexts` - Added
+- List Deployment contexts for a given deployment ID
+
+#### Required permissions
+
+- `View Tenant Details (tenant.read)`
+
+
+### PATCH - `/tenants/{tenant_id}/brokers/installs/{install_id}/contexts/{context_id}` - Added
+- Updates a Broker Context for an deployment
+
+#### Required permissions
+
+- `View Tenant Details (tenant.read)`
+
+- `Edit Tenant Details (tenant.edit)`
+
+
+### GET - `/tenants/{tenant_id}/brokers/installs/{install_id}/contexts/{context_id}` - Added
+- List Broker context for a given broker context ID
+
+#### Required permissions
+
+- `View Tenant Details (tenant.read)`
+
+
+### DELETE - `/tenants/{tenant_id}/brokers/installs/{install_id}/contexts/{context_id}` - Added
+- Deletes an existing broker context
+
+#### Required permissions
+
+- `View Tenant Details (tenant.read)`
+
+- `Edit Tenant Details (tenant.edit)`
+
+
+### DELETE - `/tenants/{tenant_id}/brokers/installs/{install_id}/contexts/{context_id}/integrations/{integration_id}` - Added
+- Deletes an existing Broker context association for an integration
+
+#### Required permissions
+
+- `View Tenant Details (tenant.read)`
+
+- `Edit Tenant Details (tenant.edit)`
+
+
+### PATCH - `/tenants/{tenant_id}/brokers/installs/{install_id}/contexts/{context_id}/integration` - Added
+- Updates an integration to be associated with a Broker context
+
+#### Required permissions
+
+- `View Tenant Details (tenant.read)`
+
+- `Edit Tenant Details (tenant.edit)`
+
+
+### GET - `/tenants/{tenant_id}/brokers/installs/{install_id}/connections/{connection_id}/contexts` - Added
+- List Broker contexts for a given broker connection ID
+
+#### Required permissions
+
+- `View Tenant Details (tenant.read)`
+
+
+### DELETE - `/tenants/{tenant_id}/brokers/connections/{connection_id}/orgs/{org_id}/integrations/{integration_id}` - Updated
+- added the non-success response with the status `403`
+
+
+
+### POST - `/tenants/{tenant_id}/brokers/connections/{connection_id}/orgs/{org_id}/integration` - Updated
+- added the non-success response with the status `403`
+
+
+
+### GET - `/self/personal_access_tokens` - Added
+- List personal access tokens
+
+
+### DELETE - `/self/personal_access_tokens/{personal_access_token_id}` - Added
+- Delete a personal access token
+
+
+### GET - `/orgs/{org_id}/projects/{project_id}/sbom` - Updated
+- added the new optional `query` request parameter `go_module_level`
+
+
+
+### GET - `/orgs/{org_id}/packages/{purl}/issues` - Updated
+- for the `query` request parameter `limit`, the type/format was changed from `number`/`` to `integer`/``
+![Badge](https://img.shields.io/badge/Breaking-yellow)
+- for the `query` request parameter `offset`, the type/format was changed from `number`/`` to `integer`/``
+![Badge](https://img.shields.io/badge/Breaking-yellow)
+- for the `query` request parameter `limit`, the max was set to `1000.00`
+![Badge](https://img.shields.io/badge/Breaking-yellow)
+- for the `query` request parameter `limit`, the min was set to `1.00`
+![Badge](https://img.shields.io/badge/Breaking-yellow)
+- for the `query` request parameter `offset`, the min was set to `0.00`
+![Badge](https://img.shields.io/badge/Breaking-yellow)
+- api operation id `fetchIssuesPerPurl` removed and replaced with `getIssuesPerPurl`
+
+- added the optional property `meta/match` to the response with the `200` status
+
+
+
+### POST - `/orgs/{org_id}/packages/issues` - Updated
+- added the optional property `meta/packages` to the response with the `200` status
+
+
+
+### GET - `/orgs/{org_id}/issues` - Updated
+- added the optional property `data/items/attributes/coordinates/items/created_at` to the response with the `200` status
+
+- added the optional property `data/items/attributes/coordinates/items/last_introduced_at` to the response with the `200` status
+
+- added the optional property `data/items/attributes/coordinates/items/last_resolved_at` to the response with the `200` status
+
+- added the optional property `data/items/attributes/coordinates/items/last_resolved_details` to the response with the `200` status
+
+- added the optional property `data/items/attributes/coordinates/items/state` to the response with the `200` status
+
+- added the optional property `data/items/attributes/coordinates/items/updated_at` to the response with the `200` status
+
+
+
+### GET - `/orgs/{org_id}/issues/{issue_id}` - Updated
+- added the optional property `data/attributes/coordinates/items/created_at` to the response with the `200` status
+
+- added the optional property `data/attributes/coordinates/items/last_introduced_at` to the response with the `200` status
+
+- added the optional property `data/attributes/coordinates/items/last_resolved_at` to the response with the `200` status
+
+- added the optional property `data/attributes/coordinates/items/last_resolved_details` to the response with the `200` status
+
+- added the optional property `data/attributes/coordinates/items/state` to the response with the `200` status
+
+- added the optional property `data/attributes/coordinates/items/updated_at` to the response with the `200` status
+
+
+
+### POST - `/orgs/{org_id}/export` - Updated
+- added the new optional request property `data/attributes/filters/empty_project_tags`
+
+
+
+### GET - `/groups/{group_id}/issues` - Updated
+- added the optional property `data/items/attributes/coordinates/items/created_at` to the response with the `200` status
+
+- added the optional property `data/items/attributes/coordinates/items/last_introduced_at` to the response with the `200` status
+
+- added the optional property `data/items/attributes/coordinates/items/last_resolved_at` to the response with the `200` status
+
+- added the optional property `data/items/attributes/coordinates/items/last_resolved_details` to the response with the `200` status
+
+- added the optional property `data/items/attributes/coordinates/items/state` to the response with the `200` status
+
+- added the optional property `data/items/attributes/coordinates/items/updated_at` to the response with the `200` status
+
+
+
+### GET - `/groups/{group_id}/issues/{issue_id}` - Updated
+- added the optional property `data/attributes/coordinates/items/created_at` to the response with the `200` status
+
+- added the optional property `data/attributes/coordinates/items/last_introduced_at` to the response with the `200` status
+
+- added the optional property `data/attributes/coordinates/items/last_resolved_at` to the response with the `200` status
+
+- added the optional property `data/attributes/coordinates/items/last_resolved_details` to the response with the `200` status
+
+- added the optional property `data/attributes/coordinates/items/state` to the response with the `200` status
+
+- added the optional property `data/attributes/coordinates/items/updated_at` to the response with the `200` status
+
+
+
+### POST - `/groups/{group_id}/export` - Updated
+- added the new optional request property `data/attributes/filters/empty_project_tags`
+
+
 ## 2025-09-28 - Updated 2025-10-22
 
 ### POST - `/orgs/{org_id}/export` - Updated
