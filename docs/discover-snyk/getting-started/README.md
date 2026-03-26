@@ -10,7 +10,7 @@ Ensure you use languages, package managers, and frameworks supported by Snyk. Se
 Snyk does not support Microsoft Internet Explorer.
 {% endhint %}
 
-Snyk supports the latest versions of the following web browserees:
+Snyk supports the latest versions of the following web browsereeefffs:
 
 * [Chrome](https://www.google.com/chrome/)
 * [Edge](https://www.microsoft.com/en-us/edge?form=MA13FJ)
